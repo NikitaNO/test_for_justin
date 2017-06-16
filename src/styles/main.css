@@ -1,0 +1,36 @@
+* {
+
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+
+  padding: 1rem;
+}
+
+.wrap__nav {
+
+  float: left;
+  width: 20%;
+  list-style: none;
+  margin-right: 1%;
+  border: 1px solid #c0c0c0;
+}
+
+.wrap__content {
+
+  width: 78%;
+  float: left;
+}
+
+.wrap__content > .wrap__content-title {
+
+  font-size: 16px;
+  font-family: Arial;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 1rem;
+}
